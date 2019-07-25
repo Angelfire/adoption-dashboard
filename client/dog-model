@@ -1,0 +1,15 @@
+// https://next.json-generator.com/
+
+[
+  {
+  	'repeat(5, 10)': {
+      _id:  '{{objectId()}}',
+      ui: '{{integer(1000, 2000)}}',
+      name: '{{firstName()}}',
+      breed: '{{random("Border Collie", "Border Terrier", "Schnauzer", "Poodle", "Akita", "Barbet", "Basset Hound", "Beagle", "Boston Terrier")}}',
+      age: '{{random("Puppy", "Young", "Adult", "Senior")}}',
+      status: '{{random("Pending", "Adopted", "Available")}}',
+      lastUpdate: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LL")}}',
+    } 
+  }
+]
