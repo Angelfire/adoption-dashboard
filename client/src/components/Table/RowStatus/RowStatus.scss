@@ -1,0 +1,21 @@
+.RowStatus {
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 6px 12px;
+  text-transform: uppercase;
+
+  &--adopted {
+    background-color: $soft-green;
+    color: $hard-green;
+  }
+
+  &--available {
+    background-color: $soft-blue;
+    color: $hard-blue;
+  }
+
+  &--pending {
+    background-color: $soft-red;
+    color: $hard-red;
+  }
+}

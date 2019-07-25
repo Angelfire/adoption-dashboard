@@ -1,0 +1,43 @@
+.StatsItem {
+  align-items: center;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  margin: 20px;
+  padding: 20px;
+
+  &__icon {
+    font-size: 23px;
+    margin-right: 9px;
+  }
+
+  &__number {
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 9px;
+  }
+
+  &__info {
+    grid-column: span 2;
+  }
+
+  &--primaryShade {
+    background-color: $soft-blue;
+    color: $hard-blue;
+  }
+
+  &--secundaryShade {
+    background-color: $soft-purple;
+    color: $hard-purple;
+  }
+
+  &--tertiaryShade {
+    background-color: $soft-green;
+    color: $hard-green;
+  }
+
+  &--quaternaryShade {
+    background-color: $soft-purple;
+    color: $hard-purple;
+  }
+}

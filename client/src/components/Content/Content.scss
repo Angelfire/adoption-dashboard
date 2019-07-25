@@ -1,0 +1,13 @@
+.Content {
+  display: flex;
+  flex-grow: 1;
+
+  &__sidebar {
+    border-right: 0.5px solid $light-gray;
+    flex-basis: 12%;
+  }
+
+  &__main {
+    flex-basis: 85%;
+  }
+}
